@@ -10,12 +10,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const emailError = document.getElementById('emailError');
     const passwordError = document.getElementById('passwordError');
     
-    // Note: Ensure you add a div with class 'success-message' inside the form or card 
-    // if you want the success text to appear. 
-    // For this script, I will create it dynamically or assume it exists.
-    // Let's assume the HTML structure provided in the prompt is the base, 
-    // so I will append the success message logic to the form container.
-
     // --- 1. Toggle Password Visibility ---
     togglePasswordBtn.addEventListener('click', () => {
         // Toggle the type attribute
@@ -23,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         passwordInput.setAttribute('type', type);
         
         // Toggle the eye icon style (optional visual cue)
-        togglePasswordBtn.style.color = type === 'text' ? '#7b2cbf' : '#888';
+        togglePasswordBtn.style.color = type === 'text' ? '#b5311a' : '#888';
     });
 
     // --- 2. Form Validation & Submission ---
