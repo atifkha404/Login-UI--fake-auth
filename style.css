@@ -121,7 +121,8 @@ body {
 }
 
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="text"] {
     width: 100%;
     padding: 14px 16px;
     background: rgba(0, 0, 0, 0.3);

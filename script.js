@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         passwordInput.setAttribute('type', type);
         
         // Toggle the eye icon style (optional visual cue)
-        togglePasswordBtn.style.color = type === 'text' ? '#b5311a' : '#888';
+        togglePasswordBtn.style.color = type === 'text' ? '#7b2cbf' : '#888';
     });
 
     // --- 2. Form Validation & Submission ---
